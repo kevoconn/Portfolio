@@ -22,11 +22,14 @@ body {
 
 }
 
+p {
+    font-family: "CCBiffBamBoomOutline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 header {
-    background-image: url('./../images/Chicago-Skyline-54016959_xl-2015.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,8 +47,10 @@ main {
 
 }
 
-.mt- { margin-top: 0.75rem; 
+.mt- {
+    margin-top: 0.75rem;
 }
+
 .pt {
     padding-top: 1.5rem;
 }
