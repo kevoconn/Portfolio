@@ -26,6 +26,14 @@ h1 {
     font-family: "CCBiffBamBoomOutline", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: black;
+    
+}
+
+h2{
+    color: white;
+    background-color: navy;
+    align-items: center;
 }
 
 header {
@@ -33,12 +41,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: red;
 }
 
 header,
 main,
 footer {
-    padding: 1.5rem;
+    padding: 0rem;
 
 }
 
