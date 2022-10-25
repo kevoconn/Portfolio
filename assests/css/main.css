@@ -1,5 +1,4 @@
 /* wire frame: TODO: delete later */
-header,
 main,
 footer {
     border: 5px solid black;
@@ -26,14 +25,6 @@ body {
 
 }
 
-.name {
-    font-family: "CCBiffBamBoomOutline", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
-
-}
-
 h2 {
     color: white;
     background-color: ;
@@ -47,14 +38,14 @@ header {
     align-items: center;
     background-color: #701016;
     height: 25vh;
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     header {
-      flex-direction: row;
-      justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-between;
     }
-  }
+}
 
 main {
     flex-grow: 1;
@@ -69,9 +60,29 @@ main {
     padding-top: 1.5rem;
 }
 
-.phone{
+.phone {
     width: 2%;
     height: 2%;
     color: #fff1c0;
 }
+
+.doublefont {
+
+    font-family: "CCBiffBamBoom", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff1c0;
+    position: relative;
+
+}
+
+.doublefont:after {
+    content: "Kevin O'Connor";
+    color: black;
+    font-family: "CCBiffBamBoomOutline", sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /* classes */
