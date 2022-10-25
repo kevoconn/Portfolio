@@ -2,10 +2,14 @@
 header,
 main,
 footer {
-    border: 5px solid navy;
+    border: 5px solid black;
 }
 
 /* reset */
+html {
+    background-color: #fff1c0;
+
+}
 
 body {
     margin: 0;
@@ -27,12 +31,12 @@ h1 {
     font-weight: 400;
     font-style: normal;
     color: black;
-    
+
 }
 
-h2{
+h2 {
     color: white;
-    background-color: navy;
+    background-color: ;
     align-items: center;
 }
 
@@ -41,7 +45,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: red;
+    background-color: #701016;
 }
 
 header,
