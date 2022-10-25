@@ -26,7 +26,7 @@ body {
 
 }
 
-h1 {
+.name {
     font-family: "CCBiffBamBoomOutline", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -40,20 +40,21 @@ h2 {
     align-items: center;
 }
 
+
 header {
-
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     background-color: #701016;
-}
-
-header,
-main,
-footer {
-    padding: 0rem;
-
-}
+    height: 25vh;
+  }
+  
+  @media (min-width: 768px) {
+    header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
 
 main {
     flex-grow: 1;
@@ -68,5 +69,9 @@ main {
     padding-top: 1.5rem;
 }
 
-
+.phone{
+    width: 2%;
+    height: 2%;
+    color: #fff1c0;
+}
 /* classes */
