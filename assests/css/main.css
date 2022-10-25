@@ -34,10 +34,10 @@ h2 {
 
 header {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #701016;
-    height: 25vh;
+    justify-content: space-between;
+    background-color: #a51811;
+    height: 20vh;
+    padding: 10px;
 }
 
 @media (min-width: 768px) {
@@ -73,6 +73,7 @@ main {
     font-style: normal;
     color: #fff1c0;
     position: relative;
+    font-size: xx-large;
 
 }
 
@@ -84,5 +85,20 @@ main {
     top: 0;
     left: 0;
 }
-
+.klogo{
+    width: 15%;
+    height: 15%;
+}
 /* classes */
+
+
+.HS {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+    }
+  
+
+  
+    
