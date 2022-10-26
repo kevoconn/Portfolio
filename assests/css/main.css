@@ -70,7 +70,7 @@ main {
     font-style: normal;
     color: #fff1c0;
     position: relative;
-    font-size: xx-large;
+    font-size: 4rem;
     margin-left: 2rem;
 }
 
@@ -82,10 +82,18 @@ main {
     top: 0;
     left: 0;
 }
-
+.dblft {
+    font-family: "CCBiffBamBoom", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff1c0;
+    position: relative;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
 .klogo {
-    width: 6rem;
-    height: 6rem;
+    width: 8rem;
+    height: 8rem;
 }
 
 /* classes */
