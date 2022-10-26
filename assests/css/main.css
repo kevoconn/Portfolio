@@ -5,11 +5,6 @@ footer {
 }
 
 /* reset */
-html {
-    background-color: #fff1c0;
-
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -25,19 +20,21 @@ body {
 
 }
 
-h2 {
-    color: white;
-    background-color: ;
-    align-items: center;
-}
-
-
 header {
     display: flex;
     justify-content: space-between;
     background-color: #a51811;
     height: 20vh;
     padding: 10px;
+}
+
+html {
+    background-color: #fff1c0;
+
+}
+
+img {
+    width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -74,7 +71,7 @@ main {
     color: #fff1c0;
     position: relative;
     font-size: xx-large;
-
+    margin-left: 2rem;
 }
 
 .doublefont:after {
@@ -87,16 +84,15 @@ main {
 }
 
 .klogo {
-    width: 15%;
-    height: 15%;
+    width: 6rem;
+    height: 6rem;
 }
 
 /* classes */
 
 
-.HS {
+.Hdrsec {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
+
 }
