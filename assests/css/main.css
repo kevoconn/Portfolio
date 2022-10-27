@@ -16,19 +16,22 @@ body {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #a51811;
     height: 20vh;
     padding: 10px;
+    order: 0;
 }
 
 html {
-    background-color: #fff1c0;
-
+    background-color: #fff3c1;
+    background-image: url("https://transparenttextures.com/patterns/crissxcross.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 img {
-    width: 100%;
+    width: 100%
 }
 
 @media (min-width: 768px) {
@@ -36,9 +39,11 @@ img {
         flex-direction: row;
         justify-content: space-between;
     }
+
+    main {}
 }
 
-main {
+@ main {
     flex-grow: 1;
 
 }
@@ -116,7 +121,7 @@ main {
 }
 
 .dblft-2::after {
-    content: "Digits";
+    content: "Work";
     color: black;
     font-family: "CCBiffBamBoomOutline", sans-serif;
     position: absolute;
@@ -124,11 +129,17 @@ main {
 }
 
 .dblft-3::after {
-    content: "Work";
+    content: "Contact";
     color: black;
     font-family: "CCBiffBamBoomOutline", sans-serif;
     position: absolute;
     left: 0;
+}
+
+.indiana {
+    width: 30%;
+    height: 30%;
+
 }
 
 .klogo {
