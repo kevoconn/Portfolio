@@ -73,14 +73,15 @@ img {
     margin-left: 2rem;
 }
 
-.doublefont:after {
+/.doublefont:after {
     content: "Kevin O'Connor";
     color: black;
     font-family: "CCBiffBamBoomOutline", sans-serif;
     position: absolute;
     top: 0;
     left: 0;
-}
+} 
+/*     text-shadow: -6px 7px black;git add */
 
 .dblft-1 {
     font-family: "CCBiffBamBoom", sans-serif;
@@ -137,8 +138,8 @@ img {
 }
 
 .indiana {
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
 
 }
 
@@ -167,4 +168,16 @@ img {
     display: flex;
     align-items: center;
 
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
 }
