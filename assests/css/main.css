@@ -1,9 +1,3 @@
-/* wire frame: TODO: delete later */
-main,
-footer {
-    border: 5px solid black;
-}
-
 /* reset */
 body {
     margin: 0;
@@ -82,7 +76,8 @@ main {
     top: 0;
     left: 0;
 }
-.dblft {
+
+.dblft-1 {
     font-family: "CCBiffBamBoom", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -91,13 +86,71 @@ main {
     font-size: 1rem;
     margin-right: 2rem;
 }
+
+.dblft-2 {
+    font-family: "CCBiffBamBoom", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff1c0;
+    position: relative;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+.dblft-3 {
+    font-family: "CCBiffBamBoom", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff1c0;
+    position: relative;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+.dblft-1::after {
+    content: "About";
+    color: black;
+    font-family: "CCBiffBamBoomOutline", sans-serif;
+    position: absolute;
+    left: 0;
+}
+
+.dblft-2::after {
+    content: "Digits";
+    color: black;
+    font-family: "CCBiffBamBoomOutline", sans-serif;
+    position: absolute;
+    left: 0;
+}
+
+.dblft-3::after {
+    content: "Work";
+    color: black;
+    font-family: "CCBiffBamBoomOutline", sans-serif;
+    position: absolute;
+    left: 0;
+}
+
 .klogo {
     width: 8rem;
     height: 8rem;
 }
 
-/* classes */
+.ftr {
+    font-family: "CCBiffBamBoom", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff1c0;
+}
 
+.ftr::after {
+    content: "By Kevin O'Connor";
+    color: #701016;
+    font-family: "CCBiffBamBoomOutline", sans-serif;
+    position: absolute;
+    left: 0;
+
+}
 
 .Hdrsec {
     display: flex;
