@@ -19,9 +19,19 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #a51811;
-    height: 20vh;
-    padding: 10px;
     order: 0;
+}
+
+h3 {
+    font-family: "CCBiffBamBoom", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #701016;
+    position: relative;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
 }
 
 html {
@@ -34,6 +44,11 @@ img {
     width: 100%
 }
 
+main {
+    flex-grow: 1;
+
+}
+
 @media (min-width: 768px) {
     header {
         flex-direction: row;
@@ -43,23 +58,9 @@ img {
     main {}
 }
 
-@ main {
-    flex-grow: 1;
-
-}
-
-.mt- {
-    margin-top: 0.75rem;
-}
-
-.pt {
+.contact {
     padding-top: 1.5rem;
-}
-
-.phone {
-    width: 2%;
-    height: 2%;
-    color: #fff1c0;
+    display: flex;
 }
 
 .doublefont {
@@ -73,15 +74,30 @@ img {
     margin-left: 2rem;
 }
 
-/.doublefont:after {
+.doublefont:after {
     content: "Kevin O'Connor";
     color: black;
     font-family: "CCBiffBamBoomOutline", sans-serif;
     position: absolute;
     top: 0;
     left: 0;
-} 
-/*     text-shadow: -6px 7px black;git add */
+}
+
+.bottom-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bio {
+    flex: 1 1 70%;
+    min-width: 30ch;
+    max-width: 50ch;
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
+
 
 .dblft-1 {
     font-family: "CCBiffBamBoom", sans-serif;
@@ -91,6 +107,7 @@ img {
     position: relative;
     font-size: 1rem;
     margin-right: 2rem;
+    text-decoration: none;
 }
 
 .dblft-2 {
@@ -101,6 +118,7 @@ img {
     position: relative;
     font-size: 1rem;
     margin-right: 2rem;
+    text-decoration: none;
 }
 
 .dblft-3 {
@@ -111,6 +129,7 @@ img {
     position: relative;
     font-size: 1rem;
     margin-right: 2rem;
+    text-decoration: none;
 }
 
 .dblft-1::after {
@@ -137,15 +156,49 @@ img {
     left: 0;
 }
 
-.indiana {
-    width: 50%;
-    height: 50%;
-
+.email {
+    max-width: 3%;
+    max-height: 3%;
+    padding: 1rem;
+}
+.ex1{
+    max-width: 15%;
+    max-height: 3%;
+    padding: 1rem;
+}
+.ex2{
+    max-width: 8%;
+    max-height: 3%;
+    padding: 1rem;
+}
+.ex3{
+    max-width: 8%;
+    max-height: 3%;
+    padding: 1rem;
+}
+.ex4{
+    max-width: 8%;
+    max-height: 3%;
+    padding: 1rem;
+}
+.ex5{
+    max-width: 8%;
+    max-height: 3%;
+    padding: 1rem;
 }
 
-.klogo {
-    width: 8rem;
-    height: 8rem;
+.end-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .ftr {
@@ -164,20 +217,55 @@ img {
 
 }
 
+.git {
+    max-width: 3%;
+    max-height: 3%;
+    padding: 1rem;
+}
+
 .Hdrsec {
     display: flex;
     align-items: center;
+}
+.h4{
 
 }
 
-.flex-container {
-    display: flex;
+.indiana {
+    max-width: 30%;
+    max-height: 30%;
+    flex: 1 1 30%;
+    margin-left: 4rem;
+    margin-right: 2rem;
+}
+
+.jobs {
+   display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-height: 8%;
+    padding: 5rem;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-self: center;
+.klogo {
+    width: 8rem;
+    height: 8rem;
+}
+
+.phone {
+    max-width: 3%;
+    max-height: 3%;
+    padding: 1rem;
+}
+
+.twitter {
+    max-width: 3%;
+    max-height: 3%;
+    padding: 1rem;
+}
+
+.work {
+    margin-top: 0.75rem;
+
 }
