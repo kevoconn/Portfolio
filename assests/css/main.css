@@ -55,9 +55,6 @@ main {
         justify-content: space-between;
     }
 
-    main {}
-}
-
 .contact {
     padding-top: 1.5rem;
     display: flex;
