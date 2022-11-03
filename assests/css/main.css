@@ -29,7 +29,7 @@ h3 {
     color: #701016;
     position: relative;
     font-size: 2rem;
-    
+
     margin-right: 2rem;
 
 }
@@ -55,211 +55,215 @@ main {
         justify-content: space-between;
     }
 
-.contact {
-    padding-top: 1.5rem;
-    display: flex;
-}
+    .contact {
+        padding-top: 1.5rem;
+        display: flex;
+    }
 
-.doublefont {
+    .doublefont {
 
-    font-family: "CCBiffBamBoom", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #fff1c0;
-    position: relative;
-    font-size: 4rem;
-    margin-left: 2rem;
-}
+        font-family: "CCBiffBamBoom", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff1c0;
+        position: relative;
+        font-size: 4rem;
+        margin-left: 2rem;
+    }
 
-.doublefont:after {
-    content: "Kevin O'Connor";
-    color: black;
-    font-family: "CCBiffBamBoomOutline", sans-serif;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+    .doublefont:after {
+        content: "Kevin O'Connor";
+        color: black;
+        font-family: "CCBiffBamBoomOutline", sans-serif;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 
-.bottom-flex {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+    .bottom-flex {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
-.bio {
-    flex: 1 1 70%;
-    min-width: 30ch;
-    max-width: 50ch;
-    margin-left: 2rem;
-    margin-right: 4rem;
-}
+    .bio {
+        flex: 1 1 70%;
+        min-width: 30ch;
+        max-width: 50ch;
+        margin-left: 2rem;
+        margin-right: 4rem;
+    }
 
 
-.dblft-1 {
-    font-family: "CCBiffBamBoom", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #fff1c0;
-    position: relative;
-    font-size: 1rem;
-    margin-right: 2rem;
-    text-decoration: none;
-}
+    .dblft-1 {
+        font-family: "CCBiffBamBoom", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff1c0;
+        position: relative;
+        font-size: 1rem;
+        margin-right: 2rem;
+        text-decoration: none;
+    }
 
-.dblft-2 {
-    font-family: "CCBiffBamBoom", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #fff1c0;
-    position: relative;
-    font-size: 1rem;
-    margin-right: 2rem;
-    text-decoration: none;
-}
+    .dblft-2 {
+        font-family: "CCBiffBamBoom", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff1c0;
+        position: relative;
+        font-size: 1rem;
+        margin-right: 2rem;
+        text-decoration: none;
+    }
 
-.dblft-3 {
-    font-family: "CCBiffBamBoom", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #fff1c0;
-    position: relative;
-    font-size: 1rem;
-    margin-right: 2rem;
-    text-decoration: none;
-}
+    .dblft-3 {
+        font-family: "CCBiffBamBoom", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff1c0;
+        position: relative;
+        font-size: 1rem;
+        margin-right: 2rem;
+        text-decoration: none;
+    }
 
-.dblft-1::after {
-    content: "About";
-    color: black;
-    font-family: "CCBiffBamBoomOutline", sans-serif;
-    position: absolute;
-    left: 0;
-}
+    .dblft-1::after {
+        content: "About";
+        color: black;
+        font-family: "CCBiffBamBoomOutline", sans-serif;
+        position: absolute;
+        left: 0;
+    }
 
-.dblft-2::after {
-    content: "Work";
-    color: black;
-    font-family: "CCBiffBamBoomOutline", sans-serif;
-    position: absolute;
-    left: 0;
-}
+    .dblft-2::after {
+        content: "Work";
+        color: black;
+        font-family: "CCBiffBamBoomOutline", sans-serif;
+        position: absolute;
+        left: 0;
+    }
 
-.dblft-3::after {
-    content: "Contact";
-    color: black;
-    font-family: "CCBiffBamBoomOutline", sans-serif;
-    position: absolute;
-    left: 0;
-}
+    .dblft-3::after {
+        content: "Contact";
+        color: black;
+        font-family: "CCBiffBamBoomOutline", sans-serif;
+        position: absolute;
+        left: 0;
+    }
 
-.email {
-    max-width: 3%;
-    max-height: 3%;
-    padding: 1rem;
-}
-.ex1{
-    max-width: 15%;
-    max-height: 3%;
-    padding: 5rem;
-}
-.ex2{
-    max-width: 8%;
-    max-height: 3%;
-    padding: 5rem;
-}
-.ex3{
-    max-width: 8%;
-    max-height: 3%;
-    padding: 5rem;
-}
-.ex4{
-    max-width: 8%;
-    max-height: 3%;
-    padding: 5rem;
-}
-.ex5{
-    max-width: 8%;
-    max-height: 3%;
-    padding: 5rem;
-}
+    .email {
+        max-width: 3%;
+        max-height: 3%;
+        padding: 1rem;
+    }
 
-.end-flex{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+    .ex1 {
+        max-width: 15%;
+        max-height: 3%;
+        padding: 5rem;
+    }
 
-.flex-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-aroundgit ;
-}
+    .ex2 {
+        max-width: 8%;
+        max-height: 3%;
+        padding: 5rem;
+    }
 
-.ftr {
-    font-family: "CCBiffBamBoom", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #fff1c0;
-}
+    .ex3 {
+        max-width: 8%;
+        max-height: 3%;
+        padding: 5rem;
+    }
 
-.ftr::after {
-    content: "By Kevin O'Connor";
-    color: #701016;
-    font-family: "CCBiffBamBoomOutline", sans-serif;
-    position: absolute;
-    left: 0;
+    .ex4 {
+        max-width: 8%;
+        max-height: 3%;
+        padding: 5rem;
+    }
 
-}
+    .ex5 {
+        max-width: 8%;
+        max-height: 3%;
+        padding: 5rem;
+    }
 
-.git {
-    max-width: 3%;
-    max-height: 3%;
-    padding: 1rem;
-}
+    .end-flex {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
-.Hdrsec {
-    display: flex;
-    align-items: center;
-}
+    .flex-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-aroundgit;
+    }
 
-.indiana {
-    max-width: 30%;
-    max-height: 30%;
-    flex: 1 1 30%;
-    margin-left: 4rem;
-    margin-right: 2rem;
-}
+    .ftr {
+        font-family: "CCBiffBamBoom", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff1c0;
+    }
 
-.jobs {
-   display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-height: 8%;
-    padding: 8rem;
-}
+    .ftr::after {
+        content: "By Kevin O'Connor";
+        color: #701016;
+        font-family: "CCBiffBamBoomOutline", sans-serif;
+        position: absolute;
+        left: 0;
 
-.klogo {
-    width: 8rem;
-    height: 8rem;
-}
+    }
 
-.phone {
-    max-width: 3%;
-    max-height: 3%;
-    padding: 1rem;
-}
+    .git {
+        max-width: 3%;
+        max-height: 3%;
+        padding: 1rem;
+    }
 
-.twitter {
-    max-width: 3%;
-    max-height: 3%;
-    padding: 1rem;
-}
+    .Hdrsec {
+        display: flex;
+        align-items: center;
+    }
 
-.work {
-    margin-top: 0.75rem;
+    .indiana {
+        max-width: 30%;
+        max-height: 30%;
+        flex: 1 1 30%;
+        margin-left: 4rem;
+        margin-right: 2rem;
+    }
 
-}
+    .jobs {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-height: 8%;
+        padding: 8rem;
+    }
+
+    .klogo {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .phone {
+        max-width: 3%;
+        max-height: 3%;
+        padding: 1rem;
+    }
+
+    .twitter {
+        max-width: 3%;
+        max-height: 3%;
+        padding: 1rem;
+    }
+
+    .work {
+        margin-top: 0.75rem;
+    }
