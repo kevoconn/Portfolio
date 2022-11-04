@@ -1,8 +1,8 @@
 # Portfolio
 Homework 2 Portfolio
-Prework Study Guide Webpage
+
 Description
-Created a webpage to display notes for assistance with my course. I will use this as reference and add to it throughout the course when more information becomes available. This does away with the need to use antiquated technology like using a stylus to transcribe notes on papyrus. I have attempted to learn the utter basics of HTML, CSS, Javascript and Git and hopefully with the aid of this study guide learn more about said topics.
+Created a portfolio to use as a template for my future portfolio to send to prospective employers. This portfolio uses just HTML and CSS.
 
 Installation
 N/A
